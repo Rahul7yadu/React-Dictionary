@@ -1,0 +1,49 @@
+.meanings{
+    display:flex;
+    flex-direction:column;
+    overflow-y:auto;
+    scrollbar-width:thin;
+    height:40vh;
+    border:10px solid grey;
+    margin:20px;
+    padding:10px 20px;
+    overflow-X:hidden;
+    border-radius:20px;
+}
+
+.subTitle{
+    font-size:5vw;
+    font-family:'Inconsolata', monospace;
+}
+.example{
+font-style: italic;
+}
+.singleMean{
+
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    padding:10px 15px;
+    margin:10px 0;
+}
+.audio{
+    border-radius: 25px;
+    margin:10px 10px;
+height:50px;
+width:100%;
+background:grey;
+
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 60vh;
+    width:70vw;
+  }
+  
+}
+.parent{
+    height:50vh;
+}
